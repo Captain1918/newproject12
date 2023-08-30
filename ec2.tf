@@ -3,6 +3,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
+
       
     }
   }
@@ -12,6 +13,7 @@ terraform {
 provider "aws" {
   profile = "default" 
   region  = "ap-south-1"
+
 }
 
 #Resource Block
